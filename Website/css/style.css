@@ -43,7 +43,8 @@ p {
 }
 
 .nss-color {
-	color: rgb(246, 139, 31);
+	/*color: rgb(246, 139, 31);*/
+	color: #FF0000;
 }
 
 
@@ -56,7 +57,7 @@ p {
 }
 
 a {
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 		-webkit-transition: all .2s ease-in-out;
 		-moz-transition: all .2s ease-in-out;
 		transition: all .2s ease-in-out;
@@ -100,7 +101,7 @@ a:focus {
 }
 
 .navbar-custom a {
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 }
 
 .navbar-custom .nav li a {
@@ -134,7 +135,7 @@ a:focus {
 }
 
 .fa-bars {
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 }
 
 .fa-bars:hover {
@@ -208,10 +209,10 @@ a:focus {
 		height: 70px;
 		margin-top: 15px;
 		padding: 7px 16px;
-		border: 2px solid rgb(246, 139, 31);
+		border: 2px solid rgb(255, 0, 0);
 		border-radius: 100%!important;
 		font-size: 40px;
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 		background: 0 0;
 		-webkit-transition: background .3s ease-in-out;
 		-moz-transition: background .3s ease-in-out;
@@ -222,7 +223,7 @@ a:focus {
 .btn-circle:focus {
 		outline: 0;
 		color: #fff;
-		background: rgba(246, 139, 31, .8);
+		background: rgba(255, 0, 0, .8);
 }
 
 .btn-circle i.animated {
@@ -360,14 +361,14 @@ a:focus {
 		margin: -15px;
 		padding: 0px 0;
 		text-align: center;
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 }
 
 .student-name-modal {
 		margin: 0px;
 		padding: 0px 0;
 		text-align: center;
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 }
 
 .student-description {
@@ -386,7 +387,7 @@ a:focus {
 		font-size: 1em;
 		text-align: left;
 		list-style: none;
-		color: rgb(246, 139, 31);
+		color: rgb(255, 0, 0);
 }
 
 
@@ -439,17 +440,18 @@ a:focus {
 }
 
 .btn-default {
-		border: 1px solid rgb(246, 139, 31);
-		color: rgb(246, 139, 31);
+		border: 1px solid rgb(255, 0, 0);
+		border-radius: 5px;
+		color: rgb(255, 0, 0);
 		background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-		border: 1px solid rgb(246, 139, 31);
+		border: 1px solid rgb(255, 0, 0);
 		outline: 0;
 		color: #000;
-		background-color: rgb(246, 139, 31);
+		background-color: rgb(255, 0, 0);
 }
 
 ul.banner-social-buttons {
