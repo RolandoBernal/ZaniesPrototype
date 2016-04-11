@@ -43,7 +43,6 @@ p {
 }
 
 .nss-color {
-	/*color: rgb(246, 139, 31);*/
 	color: #FF0000;
 }
 
@@ -167,7 +166,7 @@ a:focus {
 		padding: 100px 0;
 		text-align: center;
 		color: #fff;
-		background: url(../img/main-bg.jpg) no-repeat top center scroll;
+		/*background: url(../img/main-bg.jpg) no-repeat top center scroll;*/
 		background-color: #000;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
