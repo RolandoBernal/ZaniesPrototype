@@ -67,7 +67,7 @@ hr {
 }
 
 .brand-name {
-    margin: 0;
+    margin-top: 100px;
     font-size: 4em;
 }
 
@@ -106,18 +106,18 @@ hr {
 /* Students Profile Cells
 ---------------------------*/
 
+.artists {
+  text-align: center;
+}
 .artists-list {
 		list-style: none;
 		display: inline-block;
 }
 .profile-cell {
-		width: 280px !important;
-}
-.profile-cell {
 		display: inline-block;
-		width: 280px;
+		width: 300px;
 		margin: 10px 3px;
-		height: 535px;
+		height: 450px;
 		background-size: cover;
 		overflow-y: hidden;
 		overflow-x: hidden;
