@@ -1,12 +1,12 @@
 /*!
- * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -28,7 +28,7 @@ h6 {
 p {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000;
+    color: #ddd;
 }
 
 hr {
@@ -80,8 +80,8 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    color: #ddd;
+    background: rgba(255,255,255,0.2);
 }
 
 .intro-text {
@@ -102,9 +102,87 @@ hr {
     margin: 0 auto 0;
 }
 
+
+/* Students Profile Cells
+---------------------------*/
+
+.artists-list {
+		list-style: none;
+		display: inline-block;
+}
+.profile-cell {
+		width: 280px !important;
+}
+.profile-cell {
+		display: inline-block;
+		width: 280px;
+		margin: 10px 3px;
+		height: 535px;
+		background-size: cover;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		background: rgb(85, 85, 85);
+		text-align: left;
+}
+
+.profile-cell:hover {
+	cursor: pointer;
+}
+
+.artists-bio {
+		text-align: left;
+		margin: 0 15px 20px 20px;
+}
+
+.artists-name {
+		margin: -15px;
+		padding: 0px 0;
+		text-align: center;
+		color: rgb(255, 0, 0);
+}
+
+.artists-name-modal {
+		margin: 0px;
+		padding: 0px 0;
+		text-align: center;
+		color: rgb(255, 0, 0);
+}
+
+.artists-description {
+		margin: 0px;
+		padding: 10px 0;
+		text-align: center;
+		color: #333;
+}
+
+.img-modal {
+		width: 100%;
+		vertical-align: middle;
+}
+
+.artists-details {
+		font-size: 1em;
+		text-align: left;
+		list-style: none;
+		color: rgb(255, 0, 0);
+}
+
+.artists-pic {
+	width: 90%;
+	height: 90%;
+}
+.artists-pic:hover {
+	cursor: pointer;
+}
+
+.crop {
+	width: 333px;
+	height: 500px;
+}
+/*********************************/
+
 footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #000;
 }
 
 footer p {
@@ -162,8 +240,7 @@ footer p {
 
     .navbar-default {
         border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: #000;
     }
 
     .nav>li>a {
@@ -181,6 +258,10 @@ footer p {
         table-layout: fixed;
         font-size: 1.25em;
     }
+
+    .artists ul {
+			padding-left: 0;
+		}
 }
 
 @media screen and (min-width:1200px) {
