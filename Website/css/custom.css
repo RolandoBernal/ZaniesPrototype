@@ -102,6 +102,9 @@ hr {
     margin: 0 auto 0;
 }
 
+.carousel-inner {
+    margin-left: 36% !important;
+}
 
 /* Students Profile Cells
 ---------------------------*/
