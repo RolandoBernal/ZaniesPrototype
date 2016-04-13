@@ -53,6 +53,10 @@ hr {
     letter-spacing: 3px;
 }
 
+.navbar-default:hover .navbar-nav>li>a:hover {
+  color: rgb(255, 0, 0);
+}
+
 .img-full {
     min-width: 100%;
 }
@@ -69,6 +73,7 @@ hr {
 .brand-name {
     margin-top: 100px;
     font-size: 4em;
+    color: rgb(255, 0, 0);
 }
 
 .tagline-divider {
