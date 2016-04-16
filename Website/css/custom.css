@@ -121,13 +121,19 @@ hr {
     color: #FFFF00;
 }
 
-.background-section {
+.background-section,
+.purchase-content-form {
   background-color: #333;
   border-radius: 5px;
 }
 #tagline-divider-color {
   color: #000;
 }
+
+.carousel-inner {
+    height: 385px;
+}
+
 
 /* Students Profile Cells
 ---------------------------*/
