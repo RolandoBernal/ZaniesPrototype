@@ -3,9 +3,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /* move special fonts to HTML head for better performance */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600|Lato:400,300,700|Kaushan+Script);
+
+/*--------------------------------
+	My Custom Stuff
+--------------------------------*/
+
+html, body {
+	 height: 100%;
+	 font-family:'Lato',arial,sans-serif;
+   font-weight: 200;
+}
+
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +31,6 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -211,7 +221,6 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
