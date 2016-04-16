@@ -199,6 +199,21 @@ hr {
 }
 /*********************************/
 
+
+/* ------------------------ */
+/* Sections                 */
+/* ------------------------ */
+
+/*.visible {
+		display: block !important;
+}*/
+
+.showtimes-section,
+.purchase-section {
+	display: none;
+}
+
+
 footer {
     background: #000;
 }
