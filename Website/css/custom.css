@@ -117,9 +117,17 @@ hr {
     margin: 0 auto 0;
 }
 
-/*.carousel-inner {
-    margin-left: 36% !important;
-}*/
+.purchase-tickets {
+    color: #FFFF00;
+}
+
+.background-section {
+  background-color: #333;
+  border-radius: 5px;
+}
+#tagline-divider-color {
+  color: #000;
+}
 
 /* Students Profile Cells
 ---------------------------*/
