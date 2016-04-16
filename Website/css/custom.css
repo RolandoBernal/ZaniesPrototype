@@ -67,6 +67,16 @@ hr {
   color: rgb(255, 0, 0);
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: #000;
+}
+
+.navbar-default {
+    background-color: #000;
+    border-color: #e7e7e7;
+}
+
 .img-full {
     min-width: 100%;
 }
@@ -296,7 +306,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 30px;
+        padding: 0px;
     }
 
     .navbar-nav>li>a {
