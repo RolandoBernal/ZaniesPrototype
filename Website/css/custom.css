@@ -133,7 +133,8 @@ hr {
 
 .background-section,
 .purchase-content-form {
-  background-color: #333;
+  background-color: #000;
+  border-color: #ddd;
   border-radius: 5px;
 }
 #tagline-divider-color {
@@ -142,6 +143,11 @@ hr {
 
 .carousel-inner {
     height: 385px;
+}
+
+.text-justified {
+    font-size: 1em;
+    text-align: justify;
 }
 
 
