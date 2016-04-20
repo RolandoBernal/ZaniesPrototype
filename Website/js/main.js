@@ -6,7 +6,7 @@ $(document).ready(function() {
 		var $showtimes = $('.showtimes-section');
 		var $purchase = $('.purchase-section');
 
-	$( ".artist-section" ).on( "click", function() {
+	$( ".link-to-showtime" ).on( "click", function() {
 	  console.log("You clicked artist");
 		$artist.hide();
 		$showtimes.show();
@@ -14,14 +14,14 @@ $(document).ready(function() {
 	});
 
 
-	$( ".showtimes-section" ).on( "click", function() {
+	$( ".link-to-purchase" ).on( "click", function() {
 	  console.log("You clicked shotimes");
 		$artist.hide();
 		$showtimes.hide();
 		$purchase.show();
 	});
 
-	$( ".purchase-section" ).on( "click", function() {
+	$( ".link-to-artist" ).on( "click", function() {
 	  console.log("You clicked purchase");
 		$artist.show();
 		$showtimes.hide();

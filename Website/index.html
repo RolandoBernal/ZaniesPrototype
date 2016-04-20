@@ -149,7 +149,7 @@
                         <div id="artists">
                           <div class="row artists">
                             <ul>
-                              <li class="artists-list">
+                              <li class="artists-list link-to-showtime">
                                 <div class="profile-cell">
                                   <a href="#showtimes" class="artistslink">
                                     <div class="crop">
@@ -248,7 +248,7 @@
                                 <div>
                                   <div class="otherShowTimesContainer">
                 	                	<h5 class="otherAvailableShowTimes">Available Show Times:</h5>
-                  	                <table class="tblOtherShowTimes">
+                  	                <table class="table-bordered">
                 	                    <thead>
                 	                        	<tr>
                     	                            <th class="showtime">Show Time</th>
@@ -266,9 +266,7 @@
                 	                                    $18.00
                 	                                </td>
                 	                                <td class="details">
-                                                    <a href="#purchase">
-                	                                	Buy
-                	                                	</a>
+                                                    <a href="#purchase" class="btn btn-primary link-to-purchase">Buy</a>
                                                     <em>18 &amp; over</em><br> <em>Two items minimum</em><br>
                                                   </td>
                 	                            </tr>
@@ -281,9 +279,7 @@
                 	                                    $18.00
                 	                                </td>
                 	                                <td class="details">
-                                                    <a href="#purchase">
-                	                                	Buy
-                	                                	</a>
+                                                    <a href="#purchase" class="btn btn-primary link-to-purchase">Buy</a>
                                                     <em>18 &amp; over</em><br> <em>Two items minimum</em><br>
                                                   </td>
                 	                            </tr>
@@ -308,7 +304,7 @@
                         <div id="purchase" class="background-section">
                           <!-- ***** PURCHASE FORM ***** -->
                           <div class="purchase-content-form">
-                          		<form name="frmSecureCheckout" id="frmSecureCheckout" action="process/processSecureCheckout.cfm?s=525BC8A9-D001-E611-8601-023E00ADB65A|LS" method="post" enctype="multipart/form-data" class="form-horizontal" novalidate="novalidate">
+                          		<form name="frmSecureCheckout" id="frmSecureCheckout" action="" method="post" enctype="multipart/form-data" class="form-horizontal" novalidate="novalidate">
                           			<input type="hidden" name="orig" value="">
                           			<input type="hidden" name="tm" value="">
                           			<input type="hidden" name="k" value="8B900F0E8E7FBFDB8B6E3F5B53C796FB">
@@ -373,7 +369,7 @@
                           							<td colspan="2" class="totalLabel promoCodeForm">
                           									<label for="txtPromoCode">Do you have promo code? Enter it here:</label>
                           										<input type="text" class="text form-control" name="txtPromoCode" id="txtPromoCode" value="" onkeydown="if(event.keyCode == 13) { $.checkout.applyPromo($(this).val()); return false; }">
-                          										<input type="button" class="button btn btn-default" name="btnApplyPromoCode" id="btnApplyPromoCode" onclick="$.checkout.applyPromo($('#txtPromoCode','.promoCodeForm').val());" value="Apply">
+                          										<a href="#purchase" class="btn btn-info link-to-purchase">Apply</a>
                           								<div id="cartPromoStatusMsg">
                           								</div>
                           							</td>
@@ -793,7 +789,7 @@
                           		                		</span>
                           		                </li>
                           	                    <li class="formfield fldBtnCompletePurchase">
-                          	                    	<input type="submit" class="submit btn btn-primary" name="btnCompletePurchase" id="btnCompletePurchase" data-theme="b" value="Complete Purchase">
+                          	                    	<a href="#purchase" class="btn btn-success link-to-artist">COMPLETE PURCHASE</a>
                           	                        <em>Your card will be charged <span id="alertChargeAmount">$16.25</span></em>
                           	                    </li>
                           	                    <li class="formfield fldSeal">
@@ -805,7 +801,7 @@
                           	    </form>
                           </div>
                           <!-- ***** END PURCHASE FORM ***** -->
-                          <a href="#artists">complete purchase</a>
+                          <!-- <a href="#artists">complete purchase</a> -->
                         </div>
                       </div>
                       <!-- END of Purchase Section -->

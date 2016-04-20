@@ -46,6 +46,14 @@ hr {
     border-color: #999999;
 }
 
+a {
+  color: #ddd;
+}
+
+a:hover {
+  color: #ddd;
+}
+
 .brand,
 .address-bar {
     display: none;
