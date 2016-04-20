@@ -159,7 +159,7 @@ a:hover {
 }
 
 
-/* Students Profile Cells
+/* Artists Profile Cells
 ---------------------------*/
 
 .artists {
@@ -251,6 +251,15 @@ a:hover {
 	display: none;
 }
 
+.well {
+     background-color: #000;
+}
+
+.alert-info {
+  color: #f0f0f0;
+  background-color: #449d44;
+  border-color: #398439;
+}
 
 footer {
     background: #000;
