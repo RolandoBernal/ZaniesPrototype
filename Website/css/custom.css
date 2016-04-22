@@ -169,6 +169,10 @@ a:hover {
   background-color: #333;
 }
 
+.showtime {
+    width: 300px;
+}
+
 .form-control {
     color: #ddd;
     background-color: #000;
@@ -191,6 +195,7 @@ ul li {
 .submitButtonContainer {
     text-align: right;
 }
+
 
 
 /* Artists Profile Cells
