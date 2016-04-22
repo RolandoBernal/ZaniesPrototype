@@ -176,6 +176,10 @@ a:hover {
     background-color: #555;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 
 /* Artists Profile Cells
 ---------------------------*/
