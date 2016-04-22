@@ -248,8 +248,8 @@
                                 <!-- info -->
                                 <div>
                                   <div class="otherShowTimesContainer">
-                	                	<h5 class="otherAvailableShowTimes">Available Show Times:</h5>
-                  	                <table class="table-bordered">
+                	                	<h3 class="otherAvailableShowTimes">Available Show Times:</h3>
+                  	                <table class="table table-striped">
                 	                    <thead>
                 	                        	<tr>
                     	                            <th class="showtime">Show Time</th>
@@ -316,7 +316,7 @@
                           		    </div>
                           		    <div>
                           			    <div class="alert alert-info text-center">
-                          			            <p>You have the following time remaining to complete your purchase: <span>6:25</span></p>
+                          			            <p>You have the following time remaining to complete your purchase: <span><strong>6:25</strong></span></p>
                           			            <input type="hidden" name="timeRemaining" id="timeRemaining" value="385">
                           			    </div>
                           		    </div>
@@ -706,23 +706,19 @@
                           		            </div>
                           			    </div>
                           	            <div class="submitButtonContainer well">
-                          	                <ul>
-                          	                	<li class="formfield fldAgreePolicy">
+                          	                	<p class="formfield fldAgreePolicy">
                           		                		<span class="agreePolicy">
                           		                			By clicking "Complete Purchase" you agree to our
-                          										<a href="http://zaniesnashville.laughstub.com/purchasePolicy.cfm" target="_blank">Purchase Policy</a>
+                          										<a href="http://zaniesnashville.laughstub.com/purchasePolicy.cfm" target="_blank"><strong>Purchase Policy</strong></a>
                           		                		</span>
-                          		                </li>
-                          	                    <li class="formfield fldBtnCompletePurchase">
-                          	                    	<a href="#purchase" class="btn btn-success link-to-artist">COMPLETE PURCHASE</a>
-                          	                        <em>Your card will be charged <span id="alertChargeAmount">$16.25</span></em>
-                          	                    </li>
-                          	                    <li class="formfield fldSeal">
-                          	                    	<div class="secureseal">
+                          		                </p>
+                                              <br>
+                        	                    <p class="formfield fldBtnCompletePurchase">
+                        	                    	<a href="#purchase" class="btn btn-success link-to-artist">COMPLETE PURCHASE</a>
+                        	                        <em>Your card will be charged <span id="alertChargeAmount">$16.25</span></em>
+                        	                    </p>
                           							</div>
-                          						</li>
-                          	                </ul>
-                          	            </div>
+                          	        </div>
                           	    </form>
                           </div>
                           <!-- ***** END PURCHASE FORM ***** -->

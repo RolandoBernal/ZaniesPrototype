@@ -167,7 +167,7 @@ a:hover {
 
 .form-control {
     color: #ddd;
-    background-color: #111;
+    background-color: #000;
     background-image: none;
 }
 
@@ -178,6 +178,14 @@ a:hover {
 
 ul li {
   list-style-type: none;
+}
+
+.totalLabel {
+    text-align: right;
+}
+
+.submitButtonContainer {
+    text-align: right;
 }
 
 
@@ -274,7 +282,7 @@ ul li {
 }
 
 .well {
-     background-color: #000;
+     background-color: #111;
 }
 
 .alert-info {
