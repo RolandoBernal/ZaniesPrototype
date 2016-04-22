@@ -158,6 +158,19 @@ a:hover {
     text-align: justify;
 }
 
+/* Custom Form and Table
+---------------------------*/
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+     background-color: #111;
+}
+
+.form-control {
+    color: #ddd;
+    background-color: #111;
+    background-image: none;
+}
+
 
 /* Artists Profile Cells
 ---------------------------*/
