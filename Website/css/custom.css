@@ -171,6 +171,11 @@ a:hover {
     background-image: none;
 }
 
+.input-group-addon {
+    color: #eee;
+    background-color: #555;
+}
+
 
 /* Artists Profile Cells
 ---------------------------*/
