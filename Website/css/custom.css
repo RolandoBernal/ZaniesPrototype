@@ -165,6 +165,10 @@ a:hover {
      background-color: #111;
 }
 
+.table-head {
+  background-color: #333;
+}
+
 .form-control {
     color: #ddd;
     background-color: #000;
@@ -289,6 +293,14 @@ ul li {
   color: #f0f0f0;
   background-color: #449d44;
   border-color: #398439;
+}
+
+.msg-positive {
+  color: blue;
+}
+
+.msg-negative {
+  color: red;
 }
 
 footer {
