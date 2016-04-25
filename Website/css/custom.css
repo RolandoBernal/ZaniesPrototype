@@ -196,7 +196,10 @@ ul li {
     text-align: right;
 }
 
-
+.birthdayDayDisabled {
+  background-color: #000 !important;
+  opacity: .25 !important;
+}
 
 /* Artists Profile Cells
 ---------------------------*/
