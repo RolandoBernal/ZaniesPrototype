@@ -201,6 +201,10 @@ ul li {
   opacity: .25 !important;
 }
 
+#qty {
+  width: 94px;
+}
+
 /* Artists Profile Cells
 ---------------------------*/
 
