@@ -205,6 +205,10 @@ ul li {
   width: 94px;
 }
 
+.mod-qty {
+  color: #FFFF00;
+}
+
 .promo-code {
   display: inline-flex;
   padding-left: 0px;
