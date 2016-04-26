@@ -421,7 +421,7 @@
                           		<form name="frmSecureCheckout" id="frmSecureCheckout" action="" method="post" enctype="multipart/form-data" class="form-horizontal" novalidate="novalidate">
                           			<input type="hidden" name="orig" value="">
                           			<input type="hidden" name="tm" value="">
-                          			<input type="hidden" name="k" value="8B900F0E8E7FBFDB8B6E3F5B53C796FB">
+                          			<input type="hidden" name="k" value="">
                           		    <div class="checkoutTitleContainer">
                           	            <h1 class="pageTitle">
                           	                Checkout
@@ -438,10 +438,12 @@
                           	            <div id="orderSummaryContent">
                           			<table class="checkoutOrderSummary table table-striped">
                           				<thead>
-                          					<tr><th class="cartItem">Item</th>
-                          					<th class="cartQuantity">Quantity</th>
-                          					<th class="cartPrice">Price</th>
-                          				</tr></thead>
+                          					<tr>
+                                      <th class="cartItem">Item</th>
+                          					  <th class="cartQuantity">Quantity</th>
+                          					  <th class="cartPrice">Price</th>
+                          				  </tr>
+                                  </thead>
                           				<tbody>
                           						<tr class="ticketItem">
                           							<td class="cartItem">
@@ -465,8 +467,8 @@
                           									1 Ticket for General Admission $12
                           									<span class="at">@</span>
                           									$12.00
-                          								</em>
-                          								<em class="updateCartQuantity"><a href="http://zaniesnashville.laughstub.com/event.cfm?id=441945&amp;cart" title="Modify">Modify</a></em>
+                          								</em><br>
+                          								<em class="updateCartQuantity"><a href="#showtimes" class="artistslink" title="Modify">Modify</a></em>
                           							</td>
                           							<td class="cartPrice">$12.00</td>
                           						</tr>
@@ -480,14 +482,18 @@
                           						<td class="cartPrice">$12.00</td>
                           					</tr>
                           						<tr class="cartCouponDiscount">
-                          							<td colspan="2" class="totalLabel promoCodeForm">
+                          							<td class="text-right">
                           									<label for="txtPromoCode">Do you have promo code? Enter it here:</label>
-                          										<input type="text" class="text form-control" name="txtPromoCode" id="txtPromoCode" value="" onkeydown="if(event.keyCode == 13) { $.checkout.applyPromo($(this).val()); return false; }">
-                          										<a href="#purchase" class="btn btn-info link-to-purchase">Apply</a>
-                          								<div id="cartPromoStatusMsg">
-                          								</div>
-                          							</td>
-                          							<td class="cartPrice">-$0.00</td>
+                                        </td>
+                                        <td>
+                                          <ul>
+                                            <li><input type="text" class="text form-control" name="txtPromoCode" id="txtPromoCode" value=""></li>
+                                            <li><a href="#purchase" class="btn btn-info link-to-purchase">Apply</a></li>
+                                          </ul>
+                                        </td>
+                                        <!-- <td>
+                          							</td> -->
+                          							<td class="">-$0.00</td>
                           						</tr>
                           					<tr class="cartServiceFee">
                           						<td colspan="2" class="totalLabel">
