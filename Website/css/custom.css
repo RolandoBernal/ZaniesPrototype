@@ -205,6 +205,15 @@ ul li {
   width: 94px;
 }
 
+.promo-code {
+  display: inline-flex;
+  padding-left: 0px;
+}
+
+.promo-code-li {
+  padding-right: 10px;
+}
+
 /* Artists Profile Cells
 ---------------------------*/
 
