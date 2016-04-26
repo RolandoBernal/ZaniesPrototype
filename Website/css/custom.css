@@ -169,6 +169,9 @@ a:hover {
   background-color: #333;
 }
 
+.cartItem {
+  width: 767px;
+}
 .showtime {
     width: 300px;
 }
