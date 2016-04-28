@@ -248,7 +248,12 @@
                                 <!-- info -->
                                 <div>
                                   <div class="otherShowTimesContainer">
-                	                	<h3 class="otherAvailableShowTimes">Available Show Times:</h3>
+                                    <div class="col-md-9">
+                                      <h3 class="otherAvailableShowTimes">Available Show Times:</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                      <a href="#purchase" class="btn btn-primary link-to-showtime goback-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i> GO BACK</a>
+                                    </div>
                   	                <table class="table table-bordered">
                 	                    <thead class="table-head">
                 	                        	<tr>
@@ -299,7 +304,7 @@
                                                         <option value="24">24</option>
                                                         <option value="25">25</option> -->
                                                       </select></p>
-                                                      <p><a href="#purchase" class="btn btn-primary link-to-purchase">Buy Tickets</a></p>
+                                                      <p><a href="#purchase" class="btn btn-default link-to-purchase">Buy Tickets</a></p>
                                                     <p><em>18 &amp; over</em></p>
                                                     <p><em>Two items minimum</em></p><br>
                                                   </td>
@@ -347,7 +352,7 @@
                                                       <option value="24">24</option>
                                                       <option value="25">25</option> -->
                                                     </select><br>
-                                                    <p><a href="#" class="btn btn-primary" disabled="disabled">Buy Tickets</a></p>
+                                                    <p><a href="#" class="btn btn-default" disabled="disabled">Buy Tickets</a></p>
                                                     <p><em>18 &amp; over</em></p>
                                                     <p><em>Two items minimum</em></p><br>
                                                   </td>
@@ -392,7 +397,7 @@
                                                       <option value="24">24</option>
                                                       <option value="25">25</option> -->
                                                     </select><br>
-                                                    <p><a href="#purchase" class="btn btn-primary link-to-purchase">Buy Tickets</a></p>
+                                                    <p><a href="#purchase" class="btn btn-default link-to-purchase">Buy Tickets</a></p>
                                                     <p><em>18 &amp; over</em></p>
                                                     <p><em>Two items minimum</em></p><br>
                                                   </td>
@@ -400,6 +405,12 @@
                   	                    </tbody>
                 	                </table>
                 	                </div>
+                                  <div class="col-md-9">
+                                    <h3 class="otherAvailableShowTimes"></h3>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <a href="#purchase" class="btn btn-primary link-to-showtime goback-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i> GO BACK</a>
+                                  </div>
                                 </div>
                                 <!-- ./info -->
                               </div>
@@ -852,7 +863,8 @@
                           		                </p>
                                               <br>
                         	                    <p class="formfield fldBtnCompletePurchase">
-                        	                    	<a href="#purchase" class="btn btn-success link-to-artist">COMPLETE PURCHASE</a>
+                                                <a href="#purchase" class="btn btn-danger link-to-artist goback-btn"><i class="fa fa-times" aria-hidden="true"></i> CANCEL TRANSACTION</a>
+                        	                    	<a href="#purchase" class="btn btn-success link-to-artist goback-btn"><i class="fa fa-check" aria-hidden="true"></i> COMPLETE PURCHASE</a>
                         	                        <em>Your card will be charged <span id="alertChargeAmount">$16.25</span></em>
                         	                    </p>
                           							</div>
