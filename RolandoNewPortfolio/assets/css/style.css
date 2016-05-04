@@ -549,7 +549,6 @@ div#main-nav {
 }
 #service h2{
   color: #fff;
-
 }
 .service_wrapper {
     padding: 40px 0 40px;
@@ -704,6 +703,9 @@ a.contact_btn:hover {
     background: transparent;
 }
 
+#techSkills h2 {
+  margin-top: 0px;
+}
 
 /* My Portfolio
 ---------------------------------*/
