@@ -142,7 +142,7 @@ figure.effect-roly img {
 
 figure.effect-roly figcaption {
 	padding: 3em;
-	background-color: rgba(10, 21, 37, 0.81);
+	/*background-color: rgba(10, 21, 37, 0.81);*/
 	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;
 }
@@ -182,10 +182,13 @@ figure.effect-roly:hover h2 {
 
 figure.effect-roly:hover figcaption::before,
 figure.effect-roly:hover p {
+  margin: 20% 0 10px 0;
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	color:#fff;
+  font-size: 1.2em;
+  font-weight: bolder;
 }
 
 figure.effect-roly:hover figcaption {
@@ -193,7 +196,8 @@ figure.effect-roly:hover figcaption {
 }
 
 figure.effect-roly:hover img {
-	opacity: 0.4;
+	/*opacity: 0.4;*/
+  opacity: 0.05;
 }
 
 /* GLOBAL
