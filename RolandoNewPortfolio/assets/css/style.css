@@ -131,8 +131,7 @@ a, a:hover, a:active {
 /*---------------*/
 
 figure.effect-roly {
-	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
-	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
+		background: rgba(124, 190, 255, .8);
 }
 
 figure.effect-roly img {
@@ -154,7 +153,6 @@ figure.effect-roly figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 1px solid #fff;
 	content: '';
 }
 
@@ -164,7 +162,7 @@ figure.effect-roly h2 {
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
-	color:#A3A3A3;
+	color:#FFFFFF;
 }
 
 figure.effect-roly figcaption::before,
@@ -198,7 +196,8 @@ figure.effect-roly:hover img {
 	opacity: 0.4;
 }
 
-/* GLOBAL */
+/* GLOBAL
+----------------------------------*/
 body {
 	font-family: 'Lato', sans-serif;
 	color: #444;
