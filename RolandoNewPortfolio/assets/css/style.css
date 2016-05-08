@@ -188,7 +188,12 @@ figure.effect-roly:hover p {
 	transform: scale(1);
 	color:#fff;
   font-size: 1.2em;
-  font-weight: bolder;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 1em !important;
+  font-weight: 200 !important;
 }
 
 figure.effect-roly:hover figcaption {
