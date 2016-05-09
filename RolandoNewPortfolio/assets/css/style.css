@@ -205,6 +205,8 @@ figure.effect-roly:hover img {
   opacity: 0.05;
 }
 
+
+
 /* GLOBAL
 ----------------------------------*/
 body {
@@ -718,6 +720,13 @@ a.contact_btn:hover {
 /* My Portfolio
 ---------------------------------*/
 
+.portfolio-wrapper {
+  position: relative;
+  overflow: hidden;
+  visibility: visible;
+  animation-name: fadeInLeft;
+  height: 636px;
+}
 
 #Portfolio {
     padding: 60px 0px;
