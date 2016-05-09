@@ -23,6 +23,7 @@
 <meta name="theme-color" content="#ffffff">
 <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="assets/css/portfolio.css" rel="stylesheet" type="text/css">
 <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
 
@@ -115,7 +116,8 @@
     <div class="isotope fadeInLeft animated wow grid animated" style="position: relative; overflow: hidden; visibility: visible; animation-name: fadeInLeft; height: 636px;" id="portfolio_wrapper">
       <!-- Portfolio Item -->
       <figure style="transform: translate3d(0px, 0px, 0px); opacity: 1; position: absolute; left: 0px; top: 0px; width: 477px;" class="portfolio-item one-four uxdesign isotope-item effect-roly">
-				<a href="assets/img/projects/otherprojects.png" class="fancybox">
+				<!-- <a href="assets/img/projects/otherprojects.png" class="fancybox"> -->
+				<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 					<div class="portfolio_img">
 						<img src="assets/img/projects/otherprojects.png" alt="Portfolio 1">
 					</div>
@@ -219,7 +221,8 @@
         <div class="portfolio_img"> <img src="assets/img/projects/otherprojects.png" alt="Portfolio 1"> </div>
         <figcaption>
           <div>
-            <a href="assets/img/projects/otherprojects.png" class="fancybox">
+            <!-- <a href="assets/img/projects/otherprojects.png" class="fancybox"> -->
+						<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 							<p>"Other Projects"</p>
 							<p class="details"><i class="fa fa-search-plus fa-3x" aria-hidden="true"></i></p>
             </a>
@@ -238,6 +241,41 @@
     <div id="project_data"></div>
   </div>
 </section>
+
+<!-- Portfolio Modals -->
+		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-content">
+						<div class="close-modal" data-dismiss="modal">
+								<div class="lr">
+										<div class="rl">
+										</div>
+								</div>
+						</div>
+						<div class="container">
+								<div class="row">
+										<div class="col-lg-8 col-lg-offset-2">
+												<div class="modal-body">
+														<h2>RE Grocery App</h2>
+														<hr>
+														<img src="assets/img/portfolio/RE-Grocery-App.jpg" class="img-responsive img-centered" alt="">
+														<h4>Project Overview</h4>
+														<p><b>RE-Grocery-App</b> is an app that helps people that live under a budget. The idea came out from a friend of a friend of mine that always goes to the grocery store with her 3 kids, her grocery list on a piece of paper, a pen, and a calculator. Always trying to calculate what she was spending so she wouldn't go over her budget. I wanted to create an app that would help her with that situation.</p>
+														<h4>Project Details</h4>
+														<p>
+															<ul class="proj-details">
+																<li><i class="fa fa-code"></i>&nbsp Languages: HTML, CSS, Bootstrap, JavaScript, jQuery, Node.js, Express.js, Heroku.</li>
+																<li><a target="_blank" href="https://re-grocery-calculator.herokuapp.com/" class=""><i class="fa fa-laptop"></i>&nbsp Live Demo</a></li>
+																<li><a target="_blank" href="https://github.com/LandoB/RE_groceryapp" class=""><i class="fa fa-github"></i>&nbsp Check out the code</a></li>
+															</ul>
+														</p>
+														<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+
 <!--/Portfolio -->
 
 <!-- EXPERIENCE Section -->
