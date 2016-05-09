@@ -205,7 +205,13 @@ figure.effect-roly:hover img {
   opacity: 0.05;
 }
 
-
+.fig-style {
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  position: absolute;
+  left: 0px; top: 0px;
+  width: 477px;
+}
 
 /* GLOBAL
 ----------------------------------*/
