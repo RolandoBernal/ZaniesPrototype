@@ -3,12 +3,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-a, a:hover, a:focus, a:active, a.active {
-		outline: 0;
-		color: #dd3b2a;
-}
-
-
 #portfolio .portfolio-item {
 		right: 0;
 		margin: 0 0 15px;
@@ -140,4 +134,3 @@ a, a:hover, a:focus, a:active, a.active {
 				margin: 0 0 30px;
 		}
 }
-
