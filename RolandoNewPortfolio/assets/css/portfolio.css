@@ -133,6 +133,12 @@
 	font-size: 16px;
 }
 
+.modal-body-zanies-img {
+	max-width: 400px;
+	max-height: 300px;
+	border-radius: 5px;
+}
+
 @media(min-width:767px) {
 		#portfolio .portfolio-item {
 				margin: 0 0 30px;
