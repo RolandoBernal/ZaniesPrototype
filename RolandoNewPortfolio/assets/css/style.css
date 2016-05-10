@@ -807,6 +807,7 @@ a.contact_btn:hover {
 
 .img-footer {
   max-width: 200px;
+  opacity: .55;
 }
 
 /* no transition on .isotope container */
