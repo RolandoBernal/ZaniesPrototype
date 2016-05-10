@@ -129,6 +129,10 @@
 		opacity: 0;
 }
 
+.modal-body-zanies {
+	font-size: 16px;
+}
+
 @media(min-width:767px) {
 		#portfolio .portfolio-item {
 				margin: 0 0 30px;
