@@ -133,6 +133,10 @@
 	font-size: 16px;
 }
 
+.proto-img img {
+	width: 250px;
+}
+
 .modal-body-zanies-img {
 	max-width: 600px !important;
 	/*max-height: 300px !important;*/
